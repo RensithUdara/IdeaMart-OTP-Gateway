@@ -1,3 +1,4 @@
+import utils.session
 from flask import Flask, request, jsonify
 from dotenv import load_dotenv
 import os, random, time
